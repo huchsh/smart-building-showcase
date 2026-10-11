@@ -1,58 +1,58 @@
-# 智慧建築系統整合 × BA 軟體開發
+# 智慧建築系統整合｜BA／BMS 現場工具與 AI 協作開發
 
-我是智慧建築系統整合工程師，也寫 BA。現場遇到設備資料難接、點位難查、弱電規劃反覆修改、案場進度分散時，我會把處理方法做成自己和同事能使用的工具。
+我是智慧建築系統整合工程師，也寫 BA。我的工作方式是從案場問題出發：釐清卡點與工程規則，再用 Python、Web 與生成式 AI 協作開發，把解法做成可操作、可測試、可持續調整的工具。
 
-**求職方向：**智慧建築／BA 系統整合、BMS 解決方案、樓宇自動化應用開發，以及需要工程現場經驗與軟體能力的職務。
+我運用 **Vibe Coding／AI 協作開發**加快需求拆解、原型建立、程式調整和除錯；工程判斷、功能檢查與結果驗證由我負責。這讓我能把現場經驗轉成軟體方案，與專職工程師、業主和跨領域團隊有效協作。
 
-## 先看四個代表作品
+**求職方向：**智慧建築／BA／BMS 系統整合、解決方案與應用工程、現場應用開發，以及結合 AI 工具改善工程流程的職務。
 
-| 作品 | 現場問題 | 我做出的解法 |
+## 用程式解決的現場問題
+
+| 作品 | 遇到的問題 | 做出的解法 |
 |---|---|---|
-| [BA Gateway 與戰情看板](case-studies/ba-gateway.md) | 設備有回應卻沒有正確數值，現場難判斷卡在連線、協定還是點位 | 將設備接入、點位驗證、採集狀態、警報與看板整合成一套流程 |
-| [弱電視覺化規劃器](case-studies/low-voltage-planner.md) | 設備清單、Port、PoE 和上聯分散在多張表，修改後容易對不上 | 在畫面分配設備並即時檢查工程規則，再產生規劃表 |
-| [導覽機內容管理與網頁播放器](case-studies/kiosk-studio.md) | 螢幕內容、版型與播放設備需要反覆更新，工程人員逐台修改不易維護 | 將頁面編輯、素材、發布版本與螢幕指派串成管理流程 |
-| [弱電案場進度管制系統](case-studies/project-tracker.md) | 多人改 Excel、卡關原因分散、週報要重新整理 | 以 Web 系統管理案場、工作項目、附件、異動和週報 |
+| [導覽機內容管理與網頁播放器](case-studies/kiosk-studio.md) | 版型、素材、發布版本和播放設備分開管理，更新後不易確認播放內容 | 建立頁面編輯、範本、素材管理、發布與播放器指派流程；支援表格及即時資訊元件 |
+| [弱電視覺化規劃器](case-studies/low-voltage-planner.md) | 交換器 Port、PoE、上聯、設備及 BA 規劃資料散在工作表中，修改後要重複核對 | 整合交換器與 BA 規劃，提供互動配置、工程規則檢查和規劃表輸出 |
+| [BA Gateway 與戰情看板](case-studies/ba-gateway.md) | 點位資料、監測狀態和看板各自處理，遇到異常時不易順著資料流程檢查 | 整合 BA 資料管理、點位檢視、看板編輯、歷史與狀態呈現；近期擴充需量管理及情境自動化工具 |
+| [弱電案場進度管制系統](case-studies/project-tracker.md) | 進度、卡關原因、附件和週報分散，管理資訊需要重新彙整 | 以 Web 系統管理案場、工作項目、異動和週報 |
 
-### BA Gateway：從設備資料到現場看板
+### 導覽機：從內容編排到播放器
+![導覽機管理首頁](images/kiosk-dashboard-demo.png)
 
-![BA Gateway 示範看板，含即時狀態與趨勢](images/ba-demo-dashboard.jpg)
+包含頁面範本、表格及即時資訊元件、發布管理與網頁播放器。[查看系統流程與畫面](case-studies/kiosk-studio.md)
 
-看板使用系統內建的示範資料。[看點位列表、看板管理、編輯器與兩種播放畫面](case-studies/ba-gateway.md)
+### 弱電規劃：互動配置設備與交換器 Port
+![弱電規劃器的設備 Port 配置測試畫面](images/planner-port-test.png)
+![弱電規劃器的樓層交換器上聯拓樸](images/planner-topology-test.png)
 
-### 弱電規劃：在畫面上看清 Port 與上聯
+近期版本整合 BA 和交換器規劃，保留規劃資料並輸出檢查結果。[查看規劃流程和畫面](case-studies/low-voltage-planner.md)
 
-![弱電規劃器顯示交換器、Port 和樓層上聯](images/planner-topology-test.png)
+### BA Gateway：點位、看板與工作工具
+![BA Gateway 示範看板，顯示能源、環境和設備狀態](images/ba-demo-dashboard.jpg)
 
-[看設備分配、PoE 檢查與表格輸出](case-studies/low-voltage-planner.md)
+畫面使用示範資料。[查看點位清單、看板管理、編輯器與播放畫面](case-studies/ba-gateway.md)
 
-### 導覽機：讓內容更新與螢幕播放可管理
+### 案場管理：進度、卡關與週報
+![案場進度系統的示範總覽畫面](images/tracker-dashboard-demo.png)
 
-![導覽機內容管理首頁](images/kiosk-dashboard-demo.png)
+畫面採用虛構案場資料。[查看清單、工作詳情、週報及異動紀錄](case-studies/project-tracker.md)
 
-從管理介面處理頁面、素材、發布版本與播放設備；畫面採展示資料。[看管理首頁、統計頁與資訊元件](case-studies/kiosk-studio.md)
+## AI 協作開發與問題解決
 
-### 案場管理：進度、卡關與週報在同一套系統
+我把生成式 AI 當成開發協作工具，常用在需求拆解、程式初稿、錯誤分析及介面調整。每個工具由實際工作問題定義需求，接著反覆測試、除錯與修正；AI 協助提高開發速度，我運用 BA／弱電經驗確認工程規則與功能結果。
 
-![弱電案場進度系統的總覽畫面](images/tracker-dashboard-demo.png)
+這種 **Vibe Coding** 開發方式，讓我能快速做出可操作的 Python 與 Web 工具，並把實務情境轉成驗證條件。[查看 AI 協作開發流程與代表作品畫面](case-studies/ai-assisted-development.md)。
 
-這張畫面由原系統使用虛構案場資料拍攝。[看完整操作畫面：清單、詳情、工作項目、週報與 LOG](case-studies/project-tracker.md)
+## 近期新增與持續擴充
 
-## 其他我做的工具
+- **BA 需量管理與情境自動化：**把常用 BA 管理資訊與操作流程整理為專用頁面及工作工具。
+- **BA 圖控建置工具：**依樓層、設備和點位規劃圖控頁，支援版面編排、跨樓層複用、檢查和預覽。
+- **弱電規劃整合：**從交換器 Port、PoE 和上聯配置擴充至 BA 規劃工作流。
+- **導覽機平台：**加入範本、即時資訊、媒體管理與播放器更新處理。
+- **工程小工具：**包含文件轉表、GIF 與圖片編輯、BA 底圖批次最佳化、Modbus 模擬與資料分析。
 
-我也寫了電錶與水錶分析、Modbus 模擬、離線偵測、工程表格整理、告警通知、數位看板、圖片處理等工具。[查看全部 24 個工具與開發試驗](TOOLS_CATALOG.md)。
+[查看全部現場工具索引](TOOLS_CATALOG.md)，包含資料採集、能源分析、通訊測試、工程資料整理、案場管理、展示內容和圖片處理工具。
 
-其中幾個可深入閱讀：
+- [BA 底圖批次最佳化工具](public-code/ba-image-optimizer/README.md)
+- [Modbus 暫存器解碼示範](public-code/modbus-register-decoder/README.md)
 
-- [能源與用水分析](case-studies/energy-water-analytics.md)：處理累積讀值、重置與日統計。
-- [設備離線偵測](case-studies/device-health-monitor.md)：用連續成功／失敗門檻避免狀態抖動。
-- [Modbus 訊號模擬器](case-studies/modbus-simulator.md)：設備未到場前先測點位與畫面。
-- [工程文件自動整理](case-studies/engineering-doc-automation.md)：從文件與規劃資料產生點位、接線和審查表。
-- [系統可靠度統計](case-studies/reliability-statistics.md)：依系統整理警報與異常紀錄。
-- [數位看板編輯與播放](case-studies/digital-signage.md)：以瀏覽器編排多媒體頁面，附原系統編輯器畫面。
-
-## 可以實際試的程式
-
-- [BA 底圖批次最佳化工具](public-code/ba-image-optimizer/README.md)：選資料夾、設定格式與品質、批次輸出，保留原圖。
-- [通用 Modbus 暫存器解碼示範](public-code/modbus-register-decoder/README.md)：用虛構暫存器測試比例、位元、浮點數與字組順序。
-
-大型系統的完整程式與現場設定沒有放在此倉庫；這裡提供作品介紹、操作畫面與可安全執行的示範程式。
+完整系統、公司資料和現場連線設定不在此公開庫；這裡提供去識別化的作品說明、示範畫面和可安全執行的範例。
